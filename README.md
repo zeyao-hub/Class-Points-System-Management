@@ -70,15 +70,3 @@ This program is a group scoring management system, suitable for use in schools o
     <button onclick="changeLanguage('en')">English</button>
     <button onclick="changeLanguage('ja')">日本語</button>
 </div>
-
-<script>
-function changeLanguage(language) {
-    if (language === 'zh') {
-        // 切换到中文内容
-    } else if (language === 'en') {
-        // 切换到英文内容
-    } else if (language === 'ja') {
-        // 切换到日文内容
-    }
-}
-</script>
