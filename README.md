@@ -1,5 +1,3 @@
-# README
-
 ## 中文版
 
 ### 项目说明
@@ -20,6 +18,8 @@
 ### 注意
 - 本程序仅适用于学校或非商业用途，不保证其安全性，切勿在需要高度安全保护的场合使用。
 - **目前仅提供中文简体版**，其他语言版本正在开发中。
+
+![Main Image](main.png)
 
 ---
 
@@ -44,6 +44,8 @@ This program is a group scoring management system, suitable for use in schools o
 - This program is only for use in schools or non-commercial purposes. It does not guarantee security, and it should not be used in situations requiring high levels of security.
 - **Currently, only the Simplified Chinese version is available**. Other language versions are under development.
 
+![Main Image](main.png)
+
 ---
 
 ## 日本語版
@@ -66,3 +68,5 @@ This program is a group scoring management system, suitable for use in schools o
 ### ご注意
 - このプログラムは学校や非商業目的にのみ使用されることを想定しています。セキュリティは保証されていないため、高度なセキュリティを必要とする状況では使用しないでください。
 - **現在、簡体字中国語版のみ提供しています**。他の言語版は開発中です。
+
+![Main Image](main.png)
