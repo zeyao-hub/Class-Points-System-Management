@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级管理系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-buttons">
+            <button id="loginBtn">登录班级管理者</button>
+            <button id="enterClassBtn">进入班级</button>
+            <button id="complaintBtn">班级管理者投诉</button>
+        </div>
+
+        <div class="score-board">
+            <h2>班级得分情况</h2>
+            <div id="groupScores"></div>
+            <div id="leadingGroup"></div>
+        </div>
+
+        <div id="scoreHistory"></div>
+    </div>
+
+    <!-- 登录弹窗 -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>管理员登录</h2>
+            <input type="text" id="username" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <button id="loginSubmit">登录</button>
+            <button class="closeModal">关闭</button>
+        </div>
+    </div>
+
+    <!-- 班级密码弹窗 -->
+    <div id="cipherModal" class="modal">
+        <div class="modal-content">
+            <h2>输入班级密码</h2>
+            <input type="password" id="classPassword" placeholder="班级密码">
+            <button id="cipherSubmit">确认</button>
+            <button class="closeModal">关闭</button>
+        </div>
+    </div>
+
+    <!-- 加分弹窗 -->
+    <div id="addScoreModal" class="modal">
+        <div class="modal-content">
+            <h2>加分</h2>
+            <select id="addGroup">
+                <option value="">选择小组</option>
+                <option value="1">第一组</option>
+                <option value="2">第二组</option>
+                <option value="3">第三组</option>
+                <option value="4">第四组</option>
+                <option value="5">第五组</option>
+            </select>
+            <input type="number" id="addScore" placeholder="加分分数">
+            <input type="text" id="addTarget" placeholder="加分对象">
+            <input type="text" id="addReason" placeholder="加分原因">
+            <button id="addScoreSubmit">确认</button>
+            <button class="closeModal">关闭</button>
+        </div>
+    </div>
+
+    <!-- 扣分弹窗 -->
+    <div id="deductScoreModal" class="modal">
+        <div class="modal-content">
+            <h2>扣分</h2>
+            <select id="deductGroup">
+                <option value="">选择小组</option>
+                <option value="1">第一组</option>
+                <option value="2">第二组</option>
+                <option value="3">第三组</option>
+                <option value="4">第四组</option>
+                <option value="5">第五组</option>
+            </select>
+            <input type="number" id="deductScore" placeholder="扣分分数">
+            <input type="text" id="deductTarget" placeholder="扣分对象">
+            <input type="text" id="deductReason" placeholder="扣分原因">
+            <button id="deductScoreSubmit">确认</button>
+            <button class="closeModal">关闭</button>
+        </div>
+    </div>
+
+    <div id="managerButtons" class="manager-buttons hidden">
+        <button id="addScoreBtn">加分</button>
+        <button id="deductScoreBtn">扣分</button>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
