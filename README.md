@@ -15,7 +15,7 @@
 - `cipher.txt` 文件用于存储进入班级的口令（密码），用于限制访问权限。
 
 ### 注意
-- **红字提示：** 本程序采用 [GPL 许可证](https://www.gnu.org/licenses/gpl-3.0.html)，请在使用时遵守该协议的要求。
+- **提示：** 本程序采用 [GPL 许可证](https://www.gnu.org/licenses/gpl-3.0.html)，请在使用时遵守该协议的要求。
 - 本程序仅适用于学校或非商业用途，不保证其安全性，切勿在需要高度安全保护的场合使用。
 
 ---
@@ -35,7 +35,7 @@ This program is a group scoring management system, suitable for use in schools o
 - The `cipher.txt` file stores the password for accessing the class, which is used to restrict access.
 
 ### Note
-- **Red Alert:** This program is licensed under the [GPL License](https://www.gnu.org/licenses/gpl-3.0.html). Please make sure to comply with the terms of the license when using it.
+- **Alert:** This program is licensed under the [GPL License](https://www.gnu.org/licenses/gpl-3.0.html). Please make sure to comply with the terms of the license when using it.
 - This program is only for use in schools or non-commercial purposes. It does not guarantee security, and it should not be used in situations requiring high levels of security.
 
 ---
@@ -55,7 +55,7 @@ This program is a group scoring management system, suitable for use in schools o
 - `cipher.txt` ファイルは、クラスにアクセスするためのパスワードを保存します。これにより、アクセスを制限することができます。
 
 ### ご注意
-- **赤字の警告：** 本プログラムは [GPLライセンス](https://www.gnu.org/licenses/gpl-3.0.html) の下でライセンスされています。使用する際は、そのライセンスの条件を遵守してください。
+- **警告：** 本プログラムは [GPLライセンス](https://www.gnu.org/licenses/gpl-3.0.html) の下でライセンスされています。使用する際は、そのライセンスの条件を遵守してください。
 - このプログラムは学校や非商業目的にのみ使用されることを想定しています。セキュリティは保証されていないため、高度なセキュリティを必要とする状況では使用しないでください。
 
 ---
