@@ -59,14 +59,3 @@ This program is a group scoring management system, suitable for use in schools o
 - このプログラムは学校や非商業目的にのみ使用されることを想定しています。セキュリティは保証されていないため、高度なセキュリティを必要とする状況では使用しないでください。
 
 ---
-
-### 更改语言按钮
-
-如果您的应用程序有前端界面，您可以添加一个语言选择按钮。以下是一个简单的 HTML 示例，展示如何为用户提供语言切换功能：
-
-```html
-<div>
-    <button onclick="changeLanguage('zh')">中文</button>
-    <button onclick="changeLanguage('en')">English</button>
-    <button onclick="changeLanguage('ja')">日本語</button>
-</div>
