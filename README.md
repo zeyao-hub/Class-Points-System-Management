@@ -14,9 +14,12 @@
 #### `cipher.txt`
 - `cipher.txt` 文件用于存储进入班级的口令（密码），用于限制访问权限。
 
+#### `clearlog.py`
+- `clearlog.py` 是一个独立程序，负责每周一清零的操作。您可以选择不运行它。通常情况下，直接运行 `app.py` 即可。
+
 ### 注意
-- **提示：** 本程序采用 [GPL 许可证](https://www.gnu.org/licenses/gpl-3.0.html)，请在使用时遵守该协议的要求。
 - 本程序仅适用于学校或非商业用途，不保证其安全性，切勿在需要高度安全保护的场合使用。
+- **目前仅提供中文简体版**，其他语言版本正在开发中。
 
 ---
 
@@ -34,9 +37,12 @@ This program is a group scoring management system, suitable for use in schools o
 #### `cipher.txt`
 - The `cipher.txt` file stores the password for accessing the class, which is used to restrict access.
 
+#### `clearlog.py`
+- `clearlog.py` is a standalone script responsible for resetting the logs every Monday. You can choose not to run it. Generally, running `app.py` is sufficient.
+
 ### Note
-- **Alert:** This program is licensed under the [GPL License](https://www.gnu.org/licenses/gpl-3.0.html). Please make sure to comply with the terms of the license when using it.
 - This program is only for use in schools or non-commercial purposes. It does not guarantee security, and it should not be used in situations requiring high levels of security.
+- **Currently, only the Simplified Chinese version is available**. Other language versions are under development.
 
 ---
 
@@ -54,8 +60,9 @@ This program is a group scoring management system, suitable for use in schools o
 #### `cipher.txt`
 - `cipher.txt` ファイルは、クラスにアクセスするためのパスワードを保存します。これにより、アクセスを制限することができます。
 
-### ご注意
-- **警告：** 本プログラムは [GPLライセンス](https://www.gnu.org/licenses/gpl-3.0.html) の下でライセンスされています。使用する際は、そのライセンスの条件を遵守してください。
-- このプログラムは学校や非商業目的にのみ使用されることを想定しています。セキュリティは保証されていないため、高度なセキュリティを必要とする状況では使用しないでください。
+#### `clearlog.py`
+- `clearlog.py` は独立したプログラムで、毎週月曜日にログをリセットする役割を果たします。実行しなくても構いません。通常は `app.py` を実行するだけで十分です。
 
----
+### ご注意
+- このプログラムは学校や非商業目的にのみ使用されることを想定しています。セキュリティは保証されていないため、高度なセキュリティを必要とする状況では使用しないでください。
+- **現在、簡体字中国語版のみ提供しています**。他の言語版は開発中です。
